@@ -9,4 +9,11 @@ Get the code, then create a 'data' folder, at the same level as the already pres
 
 Rename the file to oura.json and put it in the data folder, then run the script
  
- 
+# Example
+Here is my own data, which seems to show some sort of cyclic pattern. Obviously there are many factors at play:
+
+![alt text](https://www.marcoaltini.com/uploads/1/3/2/3/13234002/screenshot-2021-01-28-at-15-23-30_orig.png)
+
+Interestingly, my data is quite consistent with the finding, despite never thinking about this before reading the paper. See below how bedtime seems to happen a bit later only around a full moon:
+
+![alt text](https://www.marcoaltini.com/uploads/1/3/2/3/13234002/screenshot-2021-01-28-at-15-23-20_orig.png)
