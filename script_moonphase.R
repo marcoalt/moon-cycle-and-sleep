@@ -7,7 +7,7 @@ library(rjson)
 library(suncalc)
 
 # change code below based on your settings
-files_path_root <- paste("~/Dropbox/R workspace/github/oura moonphase/", sep = "")
+files_path_root <- paste("YOUR PATH HERE", sep = "")
 source(paste(files_path_root, "multiplot.R", sep = ""))
 
 # function to compute moving average
@@ -20,7 +20,7 @@ col_gray <-rgb(151/256, 151/256, 151/256, 1)
 
 output_to_pdf <- TRUE
 
-files_path_data <- paste(files_path_root, "/data/", sep = "")
+files_path_data <- paste(files_path_root, "/data/", sep = "") # you need to create a data folder as well, and put oura.json in there
 files_path_figures <- paste(files_path_root, "/figures/", sep = "")
 
 ourajson <- fromJSON(file = paste(files_path_data, "/oura.json", sep = ""), simplify=TRUE)
